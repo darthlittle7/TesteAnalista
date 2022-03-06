@@ -1,0 +1,121 @@
+{
+  "id": "47b58d83-4d3b-4792-8a5e-2919279964c4",
+  "version": "2.0",
+  "name": "One Vision",
+  "url": "https://www.magazineluiza.com.br",
+  "tests": [{
+    "id": "3d3cb9ec-7893-404a-8f88-304ba99e90fb",
+    "name": "OneVision",
+    "commands": [{
+      "id": "f54c48dd-4041-4bb9-8f22-7eeea5176d20",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90da4d23-f3bc-44de-b874-1764689d7c9e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c1dfcbf-71d0-4928-85d6-8bcb84261487",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Eletrodomésticos",
+      "targets": [
+        ["linkText=Eletrodomésticos", "linkText"],
+        ["css=.sc-gwNDlS:nth-child(5) > .sc-eCImPb > .sc-iUKqMP", "css:finder"],
+        ["xpath=(//a[contains(text(),'Eletrodomésticos')])[2]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/main/section/div[2]/header/div/div[3]/nav/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.magazineluiza.com.br/eletrodomesticos/l/ed/')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46f5444b-535f-42b0-bae7-973c4a5975b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf21e3d0-4e35-4658-b487-91752dcf0a58",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "smartphone motorola one vision"
+    }, {
+      "id": "e42d5c18-9ae5-4568-adc6-8fb238bcfa48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-jCHUfY:nth-child(1) span:nth-child(4)",
+      "targets": [
+        ["css=.sc-jCHUfY:nth-child(1) span:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='search-container']/div[2]/ul/li/div[2]/div/span[4]", "xpath:idRelative"],
+        ["xpath=//span[4]", "xpath:position"],
+        ["xpath=//span[contains(.,'vision')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86fc05b3-be4e-46a8-a319-8479a6d9965d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8.800000190734863)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45c6f8ce-5c0d-44e9-8750-32ba86a66496",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d433a4c-4790-49e4-a528-9527a3893797",
+      "comment": "",
+      "command": "click",
+      "target": "css=.price-template__cash",
+      "targets": [
+        ["css=.price-template__cash", "css:finder"],
+        ["xpath=//div[2]/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69385ebd-240b-4104-84d0-c18622b6b7fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-product",
+      "targets": [
+        ["css=.header-product", "css:finder"],
+        ["xpath=//div[5]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a816ae5f-2427-4ce8-888f-89f5334e49dc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3d3cb9ec-7893-404a-8f88-304ba99e90fb"]
+  }],
+  "urls": ["https://www.magazineluiza.com.br/"],
+  "plugins": []
+}
