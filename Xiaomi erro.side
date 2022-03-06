@@ -1,0 +1,131 @@
+{
+  "id": "43525855-9b84-44df-986f-70da04cc0471",
+  "version": "2.0",
+  "name": "Xiaomi",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "64e1b0ad-8819-40d8-a358-05e76f5403dd",
+    "name": "Xiami",
+    "commands": [{
+      "id": "a0e02a7b-69fa-46e2-883d-ecc68ca761c5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84b5526a-a240-4adb-933f-f5a4e6eec55d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9ad9adf-6b6d-4fed-8726-cd580c6b7fbf",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "112a1eb9-3c2e-4087-8c45-f220c4198620",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03bca2f0-d53d-4e36-b666-a297649ad990",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Smartphone Xiaomi Redmi Note 7"
+    }, {
+      "id": "0be9ded3-a33f-4862-9bc5-e3f413c4e5f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.LLD4me",
+      "targets": [
+        ["css=.LLD4me", "css:finder"],
+        ["xpath=//body/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7859ca9-cf4c-4fcd-8298-c22d57dd0c1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00404a08-bf6c-445f-a867-5368f2118422",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,211.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5e3360e-ccb6-487e-99bb-6271a898b42b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(46) .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(46) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Celular, Xiaomi, Redmi Note 7, 4GB RAM, 64GB, Versão ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae94a543-70a3-40c2-9f49-866c0c7435d7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,105.5999984741211)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c94045dc-b158-48ad-8739-fd59e185f08d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ppd",
+      "targets": [
+        ["id=ppd", "id"],
+        ["css=#ppd", "css:finder"],
+        ["xpath=//div[@id='ppd']", "xpath:attributes"],
+        ["xpath=//div[@id='dp-container']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[5]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "61a6d381-eed1-4073-a38a-0517fae9b315",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["64e1b0ad-8819-40d8-a358-05e76f5403dd"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
