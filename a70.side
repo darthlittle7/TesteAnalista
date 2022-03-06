@@ -1,0 +1,154 @@
+{
+  "id": "ad6d5e33-8d9d-475a-b6b6-9736fc768ab6",
+  "version": "2.0",
+  "name": "a70",
+  "url": "https://www.amazon.com.br",
+  "tests": [{
+    "id": "aa1ae201-7b9f-4629-bdfe-43dcce21cad7",
+    "name": "a70",
+    "commands": [{
+      "id": "244766b4-b7f8-4695-b8ee-eaa37a08ca11",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed17413e-3afc-46f7-9896-34eb0d4cc360",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x703",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da3f89e3-a76f-4bf7-895a-73eac834feeb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_cropped-image-link_style_fluidLandscapeImage__3eTVC",
+      "targets": [
+        ["css=.\\_cropped-image-link_style_fluidLandscapeImage__3eTVC", "css:finder"],
+        ["xpath=//img[@alt='Echo Dot: teste por 30 dias.']", "xpath:img"],
+        ["xpath=//div[@id='wU-k6BNgQuxtLwoNs4ymYA']/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7422425-a4fd-4233-ab48-5757bca77a6b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_cropped-image-link_style_fluidLandscapeImage__3eTVC",
+      "targets": [
+        ["css=.\\_cropped-image-link_style_fluidLandscapeImage__3eTVC", "css:finder"],
+        ["xpath=//img[@alt='Echo Dot: teste por 30 dias.']", "xpath:img"],
+        ["xpath=//div[@id='wU-k6BNgQuxtLwoNs4ymYA']/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a12a15-75ee-4e4c-aeb6-0d11cca9ba01",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Música",
+      "targets": [
+        ["linkText=Música", "linkText"],
+        ["css=.nav-a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Música')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/music/unlimited?ref_=nav_cs_music')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Música')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f4a41c3-42f4-4783-934b-2ecf3dbf2ba7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Música",
+      "targets": [
+        ["linkText=Música", "linkText"],
+        ["css=.nav-a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Música')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/music/unlimited?ref_=nav_cs_music')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Música')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71ec12dd-a7a8-4f29-931b-2d68b6d648bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "875336ff-ec14-45b2-bbe9-59c2c733ce9d",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "smartphone samsung galaxy a70"
+    }, {
+      "id": "655d0e5f-a674-42a1-8cb5-40cdecaeec8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-search-submit-button",
+      "targets": [
+        ["id=nav-search-submit-button", "id"],
+        ["css=#nav-search-submit-button", "css:finder"],
+        ["xpath=//input[@id='nav-search-submit-button']", "xpath:attributes"],
+        ["xpath=//span[@id='nav-search-submit-text']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14c53103-6246-4bb8-9ea5-7ba2671405f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_bXVsd_link_36_Co:nth-child(2)",
+      "targets": [
+        ["css=.\\_bXVsd_link_36_Co:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='CardInstance1pvh0v8hmgk-esiynR9OBA']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://aax-us-iad.amazon.com/x/c/Qqy3nxXn5vQUDjghf89WRY0AAAF_YYysOwEAAAH2Advy5m8/https://www.amazon.com.br/stores/page/936CA707-C2A2-44F4-B591-F2A09D644DB5/?_encoding=UTF8&store_ref=SB_A05181373C5G7ITU69N1M&pd_rd_plhdr=t&aaxitk=3d49e84b30835a39c7e92a007535032c&hsa_cr_id=7118233130601&lp_asins=B09L1MYDBS%2CB09L1NR2PT%2CB09L1NPW15&lp_query=smartphone%20samsung%20galaxy%20a70&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_mcd_bkgd&pd_rd_w=3aS0S&pf_rd_p=765c2cf9-243b-4310-bfe4-da7e2b11873c&pd_rd_wg=l8Kme&pf_rd_r=VKTZD9712Q9Y5KREAH69&pd_rd_r=6582d99a-3835-45de-ab37-be73af7df0c4')]", "xpath:href"],
+        ["xpath=//span[3]/div[2]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "825d419a-ca63-400c-a8d8-962956584c94",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_bXVsd_link_36_Co:nth-child(2)",
+      "targets": [
+        ["css=.\\_bXVsd_link_36_Co:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='CardInstance1pvh0v8hmgk-esiynR9OBA']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://aax-us-iad.amazon.com/x/c/Qqy3nxXn5vQUDjghf89WRY0AAAF_YYysOwEAAAH2Advy5m8/https://www.amazon.com.br/stores/page/936CA707-C2A2-44F4-B591-F2A09D644DB5/?_encoding=UTF8&store_ref=SB_A05181373C5G7ITU69N1M&pd_rd_plhdr=t&aaxitk=3d49e84b30835a39c7e92a007535032c&hsa_cr_id=7118233130601&lp_asins=B09L1MYDBS%2CB09L1NR2PT%2CB09L1NPW15&lp_query=smartphone%20samsung%20galaxy%20a70&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_mcd_bkgd&pd_rd_w=3aS0S&pf_rd_p=765c2cf9-243b-4310-bfe4-da7e2b11873c&pd_rd_wg=l8Kme&pf_rd_r=VKTZD9712Q9Y5KREAH69&pd_rd_r=6582d99a-3835-45de-ab37-be73af7df0c4')]", "xpath:href"],
+        ["xpath=//span[3]/div[2]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "22bb3fdf-8046-4978-b58b-6d59aa1100ea",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["aa1ae201-7b9f-4629-bdfe-43dcce21cad7"]
+  }],
+  "urls": ["https://www.amazon.com.br/"],
+  "plugins": []
+}
